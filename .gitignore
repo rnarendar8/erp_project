@@ -1,0 +1,21 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java / Maven
+target/
+*.class
+*.log
+
+# Environment / secrets
+.env
+.env.*
+application-local.properties
+
+# Node
+node_modules/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db

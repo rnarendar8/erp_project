@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    margin: 0;
+    min-height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f5f6f8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.app-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 240px;
+    min-height: 100vh;
+    background: #1f2937;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sidebar-logo {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-logo h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.sidebar-menu {
+    padding: 16px 12px;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    color: #d1d5db;
+    transition: 0.2s;
+}
+
+.sidebar-item:hover {
+    background: #374151;
+    color: white;
+}
+
+.sidebar-item svg {
+    font-size: 21px;
+}
+
+.main-area {
+    flex: 1;
+    margin-left: 240px;
+    min-width: 0;
+}
+
+.header {
+    height: 70px;
+    background: white;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 28px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #111827;
+}
+
+.header p {
+    margin: 4px 0 0;
+    color: #6b7280;
+    font-size: 13px;
+}
+
+.header-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-user strong {
+    display: block;
+    font-size: 14px;
+}
+
+.header-user span {
+    display: block;
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.user-avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #2563eb;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.page-content {
+    padding: 28px;
+}
+
+.loading-container {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
