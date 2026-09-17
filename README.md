@@ -527,7 +527,7 @@ B.Tech – Information Technology
 Full-Stack Development Project
 
 ### One important correction
-
+er
 I intentionally **didn't claim features that we haven't confirmed are actually implemented**, such as email notifications or CSV export. Those are listed only under future enhancements.
 
 Also, keep this README at:
